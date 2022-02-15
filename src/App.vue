@@ -68,6 +68,15 @@
       route: "/socks",
       disabled: false,
     },
+
+    {
+      icon: "mdi-earth",
+      text: "Real World Vue3",
+      name: "",
+      route: "/real",
+      disabled: false,
+    },
+
     {
       icon: "mdi-grid",
       text: t("gridDemo"),

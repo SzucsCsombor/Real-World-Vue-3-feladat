@@ -9,12 +9,18 @@ import StartPageView from "./views/StartPageView.vue";
 import VTableView from "./views/VTableView.vue";
 import Vue3TableLiteView from "./views/Vue3TableLiteView.vue";
 import VueMasterySocksView from "./views/VueMasterySocksView.vue";
+import VueMasteryRealWorldVue3 from "./views/VueMasteryRealWorldVue3.vue";
 
 const routes: Array<RouteRecordRaw> = [
   {
     path: "/",
     name: "StartPage",
     component: StartPageView,
+  },
+  {
+    path: "/real",
+    name: "Real",
+    component: VueMasteryRealWorldVue3,
   },
   {
     path: "/examples",
